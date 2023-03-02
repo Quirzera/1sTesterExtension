@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "settings": {
+    "begin-transaction": {
+      "enabled": true
+    },
+    "md-standard-attribute-synonym-empty": {
+      "enabled": false
+    },
+    "module-structure-method-in-regions": {
+      "enabled": false
+    },
+    "commit-transaction": {
+      "enabled": true
+    },
+    "doc-comment-field-type": {
+      "enabled": false
+    },
+    "doc-comment-procedure-return-section": {
+      "enabled": false
+    },
+    "module-region-empty": {
+      "enabled": false
+    },
+    "doc-comment-type": {
+      "enabled": false
+    },
+    "invocation-form-event-handler": {
+      "enabled": false
+    },
+    "doc-comment-redundant-parameter-section": {
+      "enabled": false
+    },
+    "doc-comment-collection-item-type": {
+      "enabled": false
+    },
+    "module-unused-local-variable": {
+      "enabled": false
+    },
+    "doc-comment-parameter-in-description-suggestion": {
+      "enabled": false
+    },
+    "export-method-in-command-form-module": {
+      "enabled": false
+    },
+    "doc-comment-export-function-return-section": {
+      "enabled": false
+    },
+    "doc-comment-complex-type-with-link": {
+      "enabled": false
+    },
+    "doc-comment-field-type-strict": {
+      "enabled": false
+    },
+    "doc-comment-use-minus": {
+      "enabled": false
+    },
+    "doc-comment-parameter-section": {
+      "enabled": false
+    },
+    "md-list-object-presentation": {
+      "enabled": false
+    },
+    "form-self-reference": {
+      "enabled": false
+    },
+    "doc-comment-field-name": {
+      "enabled": false
+    },
+    "rollback-transaction": {
+      "enabled": true
+    },
+    "module-structure-form-event-regions": {
+      "enabled": false
+    },
+    "doc-comment-field-in-description-suggestion": {
+      "enabled": false
+    },
+    "doc-comment-ref-link": {
+      "enabled": false
+    },
+    "doc-comment-return-section-type": {
+      "enabled": false
+    },
+    "module-structure-top-region": {
+      "enabled": false
+    }
+  }
+}
