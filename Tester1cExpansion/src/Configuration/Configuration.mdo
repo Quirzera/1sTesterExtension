@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="dbc2fb3d-4662-4279-9b44-0cea04acce87">
+  <name>KiurTester</name>
+  <synonym>
+    <key>ru</key>
+    <value>Kiur tester</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <managedApplicationModule>Extended</managedApplicationModule>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+    <compatibilityMode>Checked</compatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="e09f34d3-0265-402d-8f82-ea7288035aa4"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9cf66171-e3a5-4d7d-8f31-ed82824097f7"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="aecfa283-4268-475e-8717-c7928788e2c5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="7c003125-96cc-4c4d-9374-48946d46da37"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="6715d247-2cc8-45e3-b614-c983ce044b32"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f9188ce4-8ef4-4abb-97f0-92ec05539491"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="d0541197-e608-4110-b867-50061276707f"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Kiur</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.13</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.13</compatibilityMode>
+  <languages uuid="9b59651d-18ff-4885-a4ec-467f9370934d" extendedConfigurationObject="52d01bf3-25f2-49a1-a962-ab474b8d40ed">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <commonModules>CommonModule.КиурКл</commonModules>
+  <commonModules>CommonModule.КиурСрв</commonModules>
+  <commonModules>CommonModule.КиурКлСрв</commonModules>
+  <commonModules>CommonModule.TesterКл</commonModules>
+  <commonModules>CommonModule.TesterСрв</commonModules>
+  <commonModules>CommonModule.TesterКлСрв</commonModules>
+  <commonModules>CommonModule.Tester_Кл_АдаптацияПодКонкретнуюБД</commonModules>
+  <commonModules>CommonModule.Tester_Срв_АдаптацияПодКонкретнуюБД</commonModules>
+  <commonModules>CommonModule.Tester_КлСрв__АдаптацияПодКонкретнуюБД</commonModules>
+  <commonForms>CommonForm.Kiur_ФормаТабличногоДокумента</commonForms>
+  <commonForms>CommonForm.Kiur_ФормаПредупреждения</commonForms>
+  <commonForms>CommonForm.Kiur_ФормаВыбораЗначения</commonForms>
+  <commonForms>CommonForm.Kiur_ФормаВопроса</commonForms>
+  <commonForms>CommonForm.Kiur_ФормаВыводаПроизвольнойТаблицы</commonForms>
+  <commonForms>CommonForm.Tester_ФормаУправленияШаблоннымиДанными</commonForms>
+  <commonForms>CommonForm.Tester_ФормаРедактированияТекста</commonForms>
+  <catalogs>Catalog.Tester_СценарииТестирования</catalogs>
+  <informationRegisters>InformationRegister.Tester_ШаблонныеДанные</informationRegisters>
+</mdclass:Configuration>

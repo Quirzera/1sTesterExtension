@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa21d059-d335-4915-af4c-0ed949386525">
+  <name>Kiur_ФормаТабличногоДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Kiur форма табличного документа</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

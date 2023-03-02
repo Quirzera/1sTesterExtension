@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c17e0a0-0e79-4bab-859b-34eb669bf788">
+  <producedTypes>
+    <objectType typeId="f429545f-172e-4ec6-a109-2833374f988f" valueTypeId="4b2680c6-02b7-4bad-a21f-cacdf94b851b"/>
+    <refType typeId="10a8e3df-f40c-47a5-acc6-be5f80efbc32" valueTypeId="a0751517-142f-4e19-a6a8-7fdc2b781dcd"/>
+    <selectionType typeId="f239aec5-4e79-48d5-be52-54483330e9e9" valueTypeId="f400ded0-43e8-42a4-a820-66472f6e6bb0"/>
+    <listType typeId="28bf335d-0313-4f9e-84f6-75abd5f1b25a" valueTypeId="b361a62b-9474-4dfd-a13f-021b559525cc"/>
+    <managerType typeId="554ac88c-d53e-4395-b6c5-f55f7d1f021f" valueTypeId="4afd671d-36a0-4433-ab5c-0cf66c442c12"/>
+  </producedTypes>
+  <name>Tester_СценарииТестирования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tester сценарии тестирования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Tester_СценарииТестирования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Tester_СценарииТестирования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Tester_СценарииТестирования.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="724e2bf7-3790-4571-a074-8f1fe2e128b8">
+    <producedTypes>
+      <objectType typeId="5539c984-8613-4dcc-b957-25658bd12d37" valueTypeId="d9dae938-eacd-4da0-95f6-e62f7be67821"/>
+      <rowType typeId="c4bf2796-6f4a-47a0-8798-cb2d488ea058" valueTypeId="c4899ce7-9793-4b3f-8df3-a80fc35f6028"/>
+    </producedTypes>
+    <name>СтартовыеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стартовые данные</value>
+    </synonym>
+    <attributes uuid="24d95c92-5929-40c5-83c8-7128275c4cfa">
+      <name>ЗагрузкаИзXML</name>
+      <synonym>
+        <key>ru</key>
+        <value>Загрузка из XML</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="61ac8715-e6a6-4f28-baa2-969fb5c5b55f">
+      <name>ИмяМетодаЗагрузки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя метода загрузки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c2f27267-c1b7-4bf1-a34f-ac88d349a662">
+      <name>UIDСтартовыхДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>UIDСтартовых данных</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+    <attributes uuid="0e88706b-4f29-45ab-ae09-70f7899c6cfe">
+      <name>ИмяНабораСтартовыхДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя набора стартовых данных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ff46db72-4b06-47f4-a7e0-0a15f874c7fa">
+    <producedTypes>
+      <objectType typeId="e8e3241a-f924-4b08-9733-ae5cc8c0af36" valueTypeId="1233473d-3fce-4d43-8bcc-3017bc913833"/>
+      <rowType typeId="a13c628f-eb1e-43ab-a5ba-8bbcd9415d88" valueTypeId="3d456e7f-9298-4e09-bfe2-86e834beed24"/>
+    </producedTypes>
+    <name>ШагиСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаги сценария</value>
+    </synonym>
+    <attributes uuid="f7b974c4-b29c-4bcf-a2da-9be0b1c339f5">
+      <name>ИмяШага</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя шага</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="542fc08c-5ec4-439e-bf49-85dc7f567c99">
+      <name>МетодПредварительныхДействий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод предварительных действий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1d171485-604a-4ecc-a932-f35648d4bec5">
+      <name>МетодПостПроверки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метод пост проверки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ebd5150b-17ba-4e0a-bffe-f570010f2544">
+      <name>UIDШага</name>
+      <synonym>
+        <key>ru</key>
+        <value>UIDШага</value>
+      </synonym>
+      <type>
+        <types>UUID</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2abc9040-623a-4919-baba-d54cf8436582">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9a6f761b-fcc6-4612-984d-9f88cc1934ba">
+    <name>ФормаШагаСценария</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма шага сценария</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

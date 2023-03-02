@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3138f3fb-5d76-4d37-a05c-536354cd98ce">
+  <producedTypes>
+    <selectionType typeId="ee6031b1-44c5-4e6e-8133-d9fd6ff9b3cb" valueTypeId="a8ad43c8-ed96-401f-839c-cb03b21de179"/>
+    <listType typeId="964cc66f-601c-4336-9db4-3a2c7e36f1b3" valueTypeId="018076d2-b064-44b7-862c-02e0d7792e94"/>
+    <managerType typeId="9adfbf37-187f-49ed-9798-0b1fe2730229" valueTypeId="4803c26f-90e5-4497-ae83-fe9db8d99295"/>
+    <recordSetType typeId="bc3a0869-81f2-48bc-9b53-7e0004f2c305" valueTypeId="3d9586c2-1575-458a-8eef-4f8e763849f2"/>
+    <recordKeyType typeId="8b546f8d-b979-467e-aebc-9abcda1365f4" valueTypeId="2830810c-7769-41e3-a5f9-df12e3e80366"/>
+    <recordType typeId="6e4e0be6-cdbf-4493-9139-662307c5b031" valueTypeId="74a65fd8-0287-4eea-b25b-421ce8863c8c"/>
+    <recordManagerType typeId="fdac010b-15ce-470c-9bd3-30bb0837548e" valueTypeId="0a887082-89b6-464e-a8b9-fc094e66bef9"/>
+  </producedTypes>
+  <name>Tester_ШаблонныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tester шаблонные данные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="ca1103bc-c82d-4820-a9fd-5c7a83155fa9">
+    <name>ХранилищеШаблонныхДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище шаблонных данных</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e581b9ba-347c-47a4-b03b-a803ea4bce86">
+    <name>UIDОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>UIDОбъекта</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

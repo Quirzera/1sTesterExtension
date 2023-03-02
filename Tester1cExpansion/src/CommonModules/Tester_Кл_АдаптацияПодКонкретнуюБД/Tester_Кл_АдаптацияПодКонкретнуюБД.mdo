@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ebddafe3-55a0-4503-af3b-d2ffd5eb6645">
+  <name>Tester_Кл_АдаптацияПодКонкретнуюБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tester кл адаптация под конкретную БД</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+</mdclass:CommonModule>
