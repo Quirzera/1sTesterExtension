@@ -211,7 +211,6 @@
         <excludedCommands>FindByCurrentValue</excludedCommands>
         <excludedCommands>OutputList</excludedCommands>
         <excludedCommands>SearchEverywhere</excludedCommands>
-        <excludedCommands>SearchHistory</excludedCommands>
         <excludedCommands>SelectAll</excludedCommands>
         <excludedCommands>ShowMultipleSelection</excludedCommands>
         <excludedCommands>ShowRowRearrangement</excludedCommands>
@@ -828,7 +827,6 @@
         <excludedCommands>FindByCurrentValue</excludedCommands>
         <excludedCommands>OutputList</excludedCommands>
         <excludedCommands>SearchEverywhere</excludedCommands>
-        <excludedCommands>SearchHistory</excludedCommands>
         <excludedCommands>SelectAll</excludedCommands>
         <excludedCommands>ShowMultipleSelection</excludedCommands>
         <excludedCommands>ShowRowRearrangement</excludedCommands>
