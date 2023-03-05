@@ -884,6 +884,10 @@
         <items xsi:type="form:FormField">
           <name>СтартовыеДанныеЗагрузитьДанныеИзXML</name>
           <id>63</id>
+          <title>
+            <key>ru</key>
+            <value>Выполнить загрузку</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -920,6 +924,57 @@
           <type>InputField</type>
           <readOnly>true</readOnly>
           <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>СтартовыеДанныеЗагрузкаВыполнена</name>
+          <id>112</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.СтартовыеДанные.ЗагрузкаВыполнена</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СтартовыеДанныеЗагрузкаВыполненаРасширеннаяПодсказка</name>
+            <id>114</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СтартовыеДанныеЗагрузкаВыполненаКонтекстноеМеню</name>
+            <id>113</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <readOnly>true</readOnly>
+          <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -1710,6 +1765,21 @@
           <types>String</types>
           <stringQualifiers/>
         </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>ЗагрузкаВыполнена</name>
+        <title>
+          <key>ru</key>
+          <value>Загрузка выполнена</value>
+        </title>
+        <id>4</id>
+        <valueType/>
         <view>
           <common>true</common>
         </view>
