@@ -258,6 +258,40 @@
 
 #КонецОбласти	
 
+#Область ВнешниеСоединения
+
+Функция ПолучитьADODB_СоединениеС_БД(Знач ФиксированныеПараметры, МодифицируемыеПараметры = Неопределено) Экспорт
+	
+	Если ТипЗнч(МодифицируемыеПараметры) <> Тип("Структура") Тогда
+		МодифицируемыеПараметры = новый Структура;
+	КонецЕсли;
+	
+	ConnectionTimeout = ?(ФиксированныеПараметры.Свойство("ConnectionTimeout",ConnectionTimeout),ConnectionTimeout,10);
+	CommandTimeOut = ?(ФиксированныеПараметры.Свойство("CommandTimeOut",CommandTimeOut),CommandTimeOut,0);
+		
+	SQL_Server = ФиксированныеПараметры.SQL_Server;
+	Database = ФиксированныеПараметры.Database;
+	user_login = ФиксированныеПараметры.user_login;
+	user_pwd = ФиксированныеПараметры.user_pwd;
+	
+	Provider = ?(ФиксированныеПараметры.Свойство("Provider",Provider),Provider,"SQLOLEDB");
+	
+	ConnectionString = "Provider=" + Provider + ";server=" + SQL_Server 
+						+ ";database="+ Database + ";uid=" + user_login + ";pwd=" + user_pwd;	
+	 
+	Connect = новый COMОбъект("ADODB.Connection");
+	Connect.ConnectionTimeout = ConnectionTimeout;
+	Connect.ConnectionString = ConnectionString;
+	
+	Connect.open();
+	
+	Connect.CommandTimeOut = CommandTimeOut;
+	
+	Возврат Connect;
+КонецФункции	
+
+#КонецОбласти
+
 ///////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 ///////////////////////Обработчики Событий Формы \\\\\\\\\\\\\\\\\\\\\\\\\\
 ////////////////\\\\\\\\\\\\\\\///////////////\\\\\\\\\\\\\\///////////////

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35936485-348a-4055-8789-bfc4594379fc">
+  <producedTypes>
+    <selectionType typeId="fa17fb82-a02b-47ec-a735-398422c121fc" valueTypeId="0e309720-69f4-43c9-b195-48898f349917"/>
+    <listType typeId="ac71eeee-4cb2-4663-b44c-760e02233f22" valueTypeId="a51506bc-3113-4095-81dd-45a5b7e449a7"/>
+    <managerType typeId="81713bff-7d45-4315-b379-935185b775ac" valueTypeId="f70366d7-7059-49e0-b570-f3dfab826734"/>
+    <recordSetType typeId="a348dc68-b87c-491e-a96e-4a5b60b6d8b0" valueTypeId="71dea503-e423-43c0-bd98-a792b0fc6864"/>
+    <recordKeyType typeId="6741a2b0-d080-4df8-a725-eb142729ab10" valueTypeId="0fee7859-3577-40ea-a83a-9e173011942b"/>
+    <recordType typeId="7c9cc30c-f7c1-4c97-933e-99d87c8eb059" valueTypeId="90a418d1-f157-45f4-976a-9a394afca938"/>
+    <recordManagerType typeId="a0089611-4922-481b-8b85-77b480dfe5ca" valueTypeId="adc62ad8-c53d-4b35-b3b0-b2daadb79520"/>
+  </producedTypes>
+  <name>Киур_ЗначениеКонстант_8_3_15</name>
+  <synonym>
+    <key>ru</key>
+    <value>Киур значение констант 8 3 15</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="e9f38efa-b071-489a-831d-7af1ce8ac985">
+    <name>ЗначениеКонстанты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение константы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Boolean</types>
+      <types>CatalogRef.Киур_СоединенияADODB</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>99</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6e6914d6-6da7-46ad-9af4-e1eacd272e69">
+    <name>ИмяКонстанты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя константы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>99</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

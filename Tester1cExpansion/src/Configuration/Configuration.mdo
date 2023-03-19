@@ -56,5 +56,7 @@
   <commonForms>CommonForm.Tester_ФормаУправленияШаблоннымиДанными</commonForms>
   <commonForms>CommonForm.Tester_ФормаРедактированияТекста</commonForms>
   <catalogs>Catalog.Tester_СценарииТестирования</catalogs>
+  <catalogs>Catalog.Киур_СоединенияADODB</catalogs>
   <informationRegisters>InformationRegister.Tester_ШаблонныеДанные</informationRegisters>
+  <informationRegisters>InformationRegister.Киур_ЗначениеКонстант_8_3_15</informationRegisters>
 </mdclass:Configuration>

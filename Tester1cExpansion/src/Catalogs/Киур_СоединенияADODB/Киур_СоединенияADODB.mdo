@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db3151b2-f889-4e79-bda3-578f85127928">
+  <producedTypes>
+    <objectType typeId="ed1d295c-f400-4200-9b17-cfe2411a1669" valueTypeId="46df435d-6245-4d7f-b82f-c02791b45301"/>
+    <refType typeId="e9769cb9-bf25-4fe7-9217-acf8f3a71450" valueTypeId="9e93539e-648b-44ec-b06b-19570d23f517"/>
+    <selectionType typeId="06dafda3-89c3-48c8-97f0-0ddf58b2e63b" valueTypeId="82f6db1b-8f27-4d87-890a-d50ca3dcac2f"/>
+    <listType typeId="7e835a39-9de7-46f7-876b-81e5532a2b02" valueTypeId="82ddd487-4f3a-48ef-8cfb-345212f9ca49"/>
+    <managerType typeId="17ecad14-3c7b-48ec-9b28-e52bba03c649" valueTypeId="98ab8bdb-1cf4-476d-bcdd-aa404bf4e4fe"/>
+  </producedTypes>
+  <name>Киур_СоединенияADODB</name>
+  <synonym>
+    <key>ru</key>
+    <value>Киур соединения ADODB</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Киур_СоединенияADODB.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Киур_СоединенияADODB.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1cdd3e31-0ed3-4f9c-956c-dfaa31be161b">
+    <name>Provider</name>
+    <synonym>
+      <key>ru</key>
+      <value>Provider</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>99</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="162fff2a-f483-4432-891a-0c7e62ed6464">
+    <name>ConnectionTimeout</name>
+    <synonym>
+      <key>ru</key>
+      <value>Connection timeout</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6a6dfa41-a836-4433-bdd1-f4b4468999c6">
+    <name>CommandTimeOut</name>
+    <synonym>
+      <key>ru</key>
+      <value>Command time out</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bc387f18-f39e-4d4f-810e-7bdaec927159">
+    <name>SQL_Server</name>
+    <synonym>
+      <key>ru</key>
+      <value>SQL server</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>99</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5fb825e-ceed-4168-96a8-00e4be584f8e">
+    <name>Database</name>
+    <synonym>
+      <key>ru</key>
+      <value>Database</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>99</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="74840efb-845b-4224-9f7a-4e952b206d2f">
+    <name>user_login</name>
+    <synonym>
+      <key>ru</key>
+      <value>User login</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>99</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e51c5bb2-5e32-4631-a833-e4e35bbdce45">
+    <name>user_pwd</name>
+    <synonym>
+      <key>ru</key>
+      <value>User pwd</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>99</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
