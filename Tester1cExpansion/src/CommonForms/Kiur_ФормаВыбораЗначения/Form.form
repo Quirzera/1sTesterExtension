@@ -160,16 +160,20 @@
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
-      <name>Отмена</name>
-      <id>11</id>
+      <name>Закрыть</name>
+      <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>ОТМЕНА</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтменаРасширеннаяПодсказка</name>
-        <id>12</id>
+        <name>ЗакрытьРасширеннаяПодсказка</name>
+        <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -183,7 +187,7 @@
         </extInfo>
       </extendedTooltip>
       <type>UsualButton</type>
-      <commandName>Form.StandardCommand.Cancel</commandName>
+      <commandName>Form.StandardCommand.Close</commandName>
       <representation>PictureAndText</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -191,16 +195,12 @@
       <backColor xsi:type="core:ColorRef">
         <color>Web.Silver</color>
       </backColor>
-      <font xsi:type="core:FontRef">
-        <font>System.DefaultGUIFont</font>
+      <font xsi:type="core:FontDef">
         <height>18.0</height>
         <bold>true</bold>
-        <italic>false</italic>
-        <underline>false</underline>
-        <strikeout>false</strikeout>
       </font>
       <picture xsi:type="core:PictureRef">
-        <picture>StdPicture.AppearanceCrossIcon</picture>
+        <picture>StdPicture.Stop</picture>
       </picture>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>

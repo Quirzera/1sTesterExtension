@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c8b7225-af4d-4d98-8a5f-57a45e72a0d8">
+  <producedTypes>
+    <selectionType typeId="dde60d3d-d4fd-4abf-9249-67a9cb615af9" valueTypeId="0dc2f79e-7236-4199-bf53-53191599adc0"/>
+    <listType typeId="a0b5088f-3f8e-4a8e-8cd2-352c6d6af4a7" valueTypeId="5c6c1f11-7037-43af-b77a-164e05db5783"/>
+    <managerType typeId="eed3c773-5796-4942-94da-5cd63404b9f8" valueTypeId="0844d1a6-ee6e-4b0d-8d4f-dd90ff10431e"/>
+    <recordSetType typeId="2782c531-f218-4840-af9f-56a1b6980b18" valueTypeId="5c6ecd66-71dc-420c-8034-04a822d863d3"/>
+    <recordKeyType typeId="6a28fcf9-3053-49be-a98f-926c92c202ca" valueTypeId="0de7a05b-1c4b-44f5-897b-9fd63fb9a9b0"/>
+    <recordType typeId="e73973c8-4abc-403d-8e22-62da6ed36b13" valueTypeId="7d10bfec-7e41-4ce6-86e4-e2678992ef6a"/>
+    <recordManagerType typeId="921e197a-8871-49e1-941d-f16948318526" valueTypeId="d1d57129-bf97-46b8-950b-569763fb90da"/>
+  </producedTypes>
+  <name>Tester_СлужебныеТаблицы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tester служебные таблицы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="0d966aee-b6de-4dd8-9d8a-7e2250958ad3">
+    <name>ДопСведения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп сведения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6929c380-79a1-4316-bf29-fab418d4906e">
+    <name>ИмяТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя таблицы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

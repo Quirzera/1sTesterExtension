@@ -59,4 +59,5 @@
   <catalogs>Catalog.Киур_СоединенияADODB</catalogs>
   <informationRegisters>InformationRegister.Tester_ШаблонныеДанные</informationRegisters>
   <informationRegisters>InformationRegister.Киур_ЗначениеКонстант_8_3_15</informationRegisters>
+  <informationRegisters>InformationRegister.Tester_СлужебныеТаблицы</informationRegisters>
 </mdclass:Configuration>
