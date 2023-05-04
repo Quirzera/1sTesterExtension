@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3996a602-4118-4226-83a5-04c2362130c7">
+  <producedTypes>
+    <selectionType typeId="580794e5-32d3-4375-a221-a58bb2e754f7" valueTypeId="91c390ed-6e15-4b82-89d2-7818d9d874fd"/>
+    <listType typeId="017c26dd-482d-4245-b76e-64c19a65f2c5" valueTypeId="7b760377-0baa-4e93-8492-94a16f23f5e2"/>
+    <managerType typeId="a1ad9116-9652-43d7-bef5-066725f65fc7" valueTypeId="2daceb08-7434-4d27-b4d7-3ee5b530a596"/>
+    <recordSetType typeId="c74e0a6b-1350-430a-88da-f899f6007cdf" valueTypeId="4b64c9c0-5245-435e-95ab-5a22a8a2d625"/>
+    <recordKeyType typeId="c2c0d81d-9e61-43be-859e-c8f8803965bd" valueTypeId="e902aae9-0685-44b1-bdc6-e55ca551e7a3"/>
+    <recordType typeId="4e9ccf0a-0e1c-45c2-a81d-266c4e1a6aa2" valueTypeId="f142a6eb-b91e-47ba-8ebe-c50a83c6bde1"/>
+    <recordManagerType typeId="c7f463be-eddc-4345-b346-87c551a1f184" valueTypeId="4386a3da-4289-4114-92b5-69e2a8aa71f2"/>
+  </producedTypes>
+  <name>Tester_ДопСведенияШаблонныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Tester доп сведения шаблонных данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.Tester_ДопСведенияШаблонныхДанных.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="ac008c67-dbfb-44de-bd19-6b4f41af7476">
+    <name>ИменаКолонокИсключений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена колонок исключений</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6ffdf595-4a6f-4d3b-b9d5-bc32912cf26a">
+    <name>МетодЗапросаКТаблице</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод запроса к таблице</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="61135693-49a0-4be3-a281-27a2f4bbaf1b">
+    <name>ИмяТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя таблицы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="cd38fb8a-4b1b-4785-bfcf-0f1bb79a5498">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
