@@ -27,7 +27,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>150</length>
+        <length>300</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -45,7 +45,7 @@
     <type>
       <types>String</types>
       <stringQualifiers>
-        <length>150</length>
+        <length>200</length>
       </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
