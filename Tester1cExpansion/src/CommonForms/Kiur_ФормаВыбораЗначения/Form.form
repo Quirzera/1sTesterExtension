@@ -318,6 +318,21 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>СтруктураДанныхВыбраннойСтроки</name>
+    <title>
+      <key>ru</key>
+      <value>Структура данных выбранной строки</value>
+    </title>
+    <id>4</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ОК</name>
     <title>
