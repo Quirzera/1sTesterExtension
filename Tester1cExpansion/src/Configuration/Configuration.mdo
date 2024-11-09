@@ -55,6 +55,7 @@
   <commonForms>CommonForm.Kiur_ФормаВыводаПроизвольнойТаблицы</commonForms>
   <commonForms>CommonForm.Tester_ФормаУправленияШаблоннымиДанными</commonForms>
   <commonForms>CommonForm.Tester_ФормаРедактированияТекста</commonForms>
+  <commonForms>CommonForm.Kiur_ФормаОтображенияИзображений</commonForms>
   <catalogs>Catalog.Tester_СценарииТестирования</catalogs>
   <catalogs>Catalog.Киур_СоединенияADODB</catalogs>
   <informationRegisters>InformationRegister.Tester_ШаблонныеДанные</informationRegisters>
